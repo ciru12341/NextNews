@@ -1,7 +1,13 @@
 {
-  "name": "mutation",
-  "version": "0.1.0",
-  "private": true,
+  "name": "04-data-mutation",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,8 +15,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "better-sqlite3": "^9.4.3",
-    "cloudinary": "^2.0.2",
+    "better-sqlite3": "^12.2.0",
+    "cloudinary": "^2.7.0",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18"
